@@ -1,2 +1,2 @@
-# laravel-ecommerce
-laravel-ecommerce
+# ccns-ecommerce
+ccns-ecommerce
