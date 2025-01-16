@@ -1,0 +1,15 @@
+[submodule "packages/ccns-ecommerce-cart"]
+	path = packages/ccns-ecommerce-cart
+	url = https://github.com/Coconut-Soft-Creation/ccns-ecommerce-cart.git
+[submodule "packages/ccns-ecommerce-orders"]
+	path = packages/ccns-ecommerce-orders
+	url = https://github.com/Coconut-Soft-Creation/ccns-ecommerce-orders.git
+[submodule "packages/ccns-ecommerce-products"]
+	path = packages/ccns-ecommerce-products
+	url = https://github.com/Coconut-Soft-Creation/ccns-ecommerce-products.git
+[submodule "packages/ccns-ecommerce-shipment"]
+	path = packages/ccns-ecommerce-shipment
+	url = https://github.com/Coconut-Soft-Creation/ccns-ecommerce-shipment.git
+[submodule "packages/ccns-ecommerce-payment"]
+	path = packages/ccns-ecommerce-payment
+	url = https://github.com/Coconut-Soft-Creation/ccns-ecommerce-payment.git
