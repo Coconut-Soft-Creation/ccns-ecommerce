@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "626b9e7ddd47fb7eff9aaa53cce0c9ad",
+    "content-hash": "d542e16cab92fc3048d4e129c290e1b8",
     "packages": [
         {
             "name": "brick/math",
@@ -134,6 +134,58 @@
                 }
             ],
             "time": "2024-02-09T16:56:22+00:00"
+        },
+        {
+            "name": "ccns/ccns-ecommerce-cart",
+            "version": "0.1",
+            "dist": {
+                "type": "path",
+                "url": "packages/ccns-ecommerce-cart",
+                "reference": "96e29329fe035095a386e0c11487528d46ce0589"
+            },
+            "require-dev": {
+                "illuminate/support": "^10.0",
+                "laravel/framework": "^v11.0.0",
+                "laravel/tinker": "^2.9",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ccns\\CcnsEcommerceCart\\CartServiceProvider"
+                    ],
+                    "aliases": {
+                        "Cart": "Ccns\\CcnsEcommerceCart\\Facades\\Cart"
+                    }
+                },
+                "branch-alias": {
+                    "dev-main": "1.x"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ccns\\CcnsEcommerceCart\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Ccns\\CcnsEcommerceCart\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Coconut Soft Creation",
+                    "email": "email@example.com"
+                }
+            ],
+            "description": "A Laravel package for e-commerce cart management.",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "dflydev/dot-access-data",
