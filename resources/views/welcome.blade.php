@@ -59,6 +59,11 @@
                     </header>
 
                     <main class="mt-6">
+
+                        <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
+{{--                            <x-ccns-ecommerce-cart::cart :$cart></x-ccns-ecommerce-cart::cart>--}}
+                        </div>
+
                         <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                             <a
                                 href="https://laravel.com/docs"
